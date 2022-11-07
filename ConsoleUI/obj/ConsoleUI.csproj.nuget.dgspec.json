@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj": {}
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj": {}
   },
   "projects": {
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj": {
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj",
+        "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj",
         "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\obj\\",
+        "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj": {
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
+        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
         "projectName": "ConsoleUI",
-        "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
+        "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
         "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\obj\\",
+        "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -111,14 +111,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj"
               },
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
               }
             }
           }
@@ -151,14 +151,14 @@
         }
       }
     },
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj": {
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj",
+        "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\obj\\",
+        "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -231,14 +231,14 @@
         }
       }
     },
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
+        "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
         "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\obj\\",
+        "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -255,11 +255,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj"
               },
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
               }
             }
           }
@@ -298,14 +298,14 @@
         }
       }
     },
-    "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj": {
+    "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj",
+        "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\obj\\",
+        "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -322,8 +322,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj": {
-                "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj"
+              "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
+                "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj"
               }
             }
           }

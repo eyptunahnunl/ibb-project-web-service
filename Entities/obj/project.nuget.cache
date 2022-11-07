@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zk+EFMafykSrXNzznscelasUyitp6zgSqpWWD0GQ0yr2LhLv6FVh3he4TMykDn4ZSkC6FTGKU3qXReKZ48Gvvw==",
+  "dgSpecHash": "IxnEGltAeHFAeFKfe44mUkr6jEhhjEvJtifNDHf4JmL3HEPYz5HVhQcfKnJdBFqlduaMzYrtUObdwfPE/wMrsQ==",
   "success": true,
-  "projectFilePath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj",
+  "projectFilePath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyptu\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\eyptu\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

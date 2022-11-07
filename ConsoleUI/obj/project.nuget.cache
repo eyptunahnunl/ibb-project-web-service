@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "klo3Q9PX7UgMf+935G/cdU9YGj7O3q2rAhM+6VoioSCqB2yM07pP9L7JAIRGZki82wYFe5lSyj0pbliHzmYjTg==",
+  "dgSpecHash": "ELufPXFxmlHzAjV7+0/LaMrTB41pTGKD7/sxSns7/fMZ1Se1LOX3Qzveoa1/qp44NSeXhze4q6w9jx/Fn2WBqQ==",
   "success": true,
-  "projectFilePath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\eyptu\\.nuget\\packages\\autofac\\6.1.0\\autofac.6.1.0.nupkg.sha512",
     "C:\\Users\\eyptu\\.nuget\\packages\\autofac.extensions.dependencyinjection\\7.1.0\\autofac.extensions.dependencyinjection.7.1.0.nupkg.sha512",

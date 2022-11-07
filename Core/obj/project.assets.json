@@ -7593,11 +7593,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj",
+      "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
       "projectName": "Core",
-      "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj",
+      "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
       "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-      "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\obj\\",
+      "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -7708,11 +7708,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project-web-service\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\WebAPI\\WebAPI.csproj",
+      "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\WebAPI\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-      "outputPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\WebAPI\\obj\\",
+      "outputPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7729,17 +7729,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj": {
-              "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Business\\Business.csproj"
+            "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj": {
+              "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj"
             },
-            "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj": {
-              "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Core\\Core.csproj"
+            "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
+              "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj"
             },
-            "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
+            "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
             },
-            "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj": {
-              "projectPath": "D:\\AR-GE\\Projects\\ibb-project-web-service\\Entities\\Entities.csproj"
+            "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
+              "projectPath": "D:\\AR-GE\\Projects\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
             }
           }
         }

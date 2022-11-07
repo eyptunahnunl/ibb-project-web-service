@@ -15,31 +15,31 @@ namespace Core.DataAccess.EntityFramework
         public void Add(TEntity entity)
         {
             //IDisposable pattern implementation of C#
-            using (TContext context = new TContext()) // using bitince bellekten atan yapı
+            using (TContext context = new TContext())
             {
-                var addedEntity = context.Entry(entity); // veri kaynağı ile eşleştirdi. Referansı yakaladı
-                addedEntity.State = EntityState.Added; // Eklendi
-                context.SaveChanges();   //Değişiklikler kaydedildi. 
+                var addedEntity = context.Entry(entity); 
+                addedEntity.State = EntityState.Added; 
+                context.SaveChanges();   
             }
         }
 
         public void Delete(TEntity entity)
         {
-            using (TContext context = new TContext()) // using bitince bellekten atan yapı
+            using (TContext context = new TContext())
             {
-                var deletedEntity = context.Entry(entity); // veri kaynağı ile eşleştirdi. Referansı yakaladı
-                deletedEntity.State = EntityState.Deleted; // Eklendi
-                context.SaveChanges();   //Değişiklikler kaydedildi. 
+                var deletedEntity = context.Entry(entity); 
+                deletedEntity.State = EntityState.Deleted; 
+                context.SaveChanges();   . 
             }
         }
 
         public void Update(TEntity entity)
         {
-            using (TContext context = new TContext()) // using bitince bellekten atan yapı
+            using (TContext context = new TContext())
             {
-                var updatedEntity = context.Entry(entity); // veri kaynağı ile eşleştirdi. Referansı yakaladı
-                updatedEntity.State = EntityState.Modified; // Eklendi
-                context.SaveChanges();   //Değişiklikler kaydedildi. 
+                var updatedEntity = context.Entry(entity); 
+                updatedEntity.State = EntityState.Modified;
+                context.SaveChanges();   . 
             }
         }
 
