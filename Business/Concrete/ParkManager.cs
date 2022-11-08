@@ -1,12 +1,17 @@
 ﻿using Business.Abstract;
 using Business.BusinessAspects.Autofac;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Caching;
+using Core.Aspects.Autofac.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 
 namespace Business.Concrete
@@ -20,6 +25,8 @@ namespace Business.Concrete
             _parkDal = parkDal;
         }
 
+
+        [ValidationAspect(typeof(ParkValidation))]
         [SecuredOperation("admin,park.add")]
         public IResult Add(Park park)
         {
@@ -39,9 +46,16 @@ namespace Business.Concrete
 
         }
 
+        [ValidationAspect(typeof(ParkValidation))]
+        [SecuredOperation("park.update,admin")]
+       
         public IResult Update(Park park)
         {
-            throw new NotImplementedException();
+            _parkDal.Update(park);
+            return new SuccessResult(Messages.ParkUpdate);
         }
+
+
+  
     }
 }

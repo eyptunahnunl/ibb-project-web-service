@@ -13,7 +13,7 @@ namespace Business.Constants
         public static string ParkNameInvalid = "Park ismi Geçersiz.";
         public static string ParkListed = "Parklar Listelendi";
         public static string ParkNameAlreadyExists = "Bu isimde zaten başka bir park var";
-
+        public static string ParkUpdate = "Park güncellendi";
         public static string AuthorizationDenied = "Yetkiniz Bulunmamaktadır.";
         public static string UserRegistered = "Kayıt oldu.";
         public static string UserNotFound = "Kullanıcı Bulunamadı.";
