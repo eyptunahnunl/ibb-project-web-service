@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyDocumentation\\AR-GE\\ibb-projects\\ibbprojectv2\\ibb-project-web-service\\Core\\Core.csproj": {}
+    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {}
   },
   "projects": {
-    "D:\\MyDocumentation\\AR-GE\\ibb-projects\\ibbprojectv2\\ibb-project-web-service\\Core\\Core.csproj": {
+    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyDocumentation\\AR-GE\\ibb-projects\\ibbprojectv2\\ibb-project-web-service\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-projects\\ibbprojectv2\\ibb-project-web-service\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\eyupunal\\.nuget\\packages\\",
-        "outputPath": "D:\\MyDocumentation\\AR-GE\\ibb-projects\\ibbprojectv2\\ibb-project-web-service\\Core\\obj\\",
+        "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
+        "outputPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyupunal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -71,8 +71,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -81,7 +80,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
         }
       }
     }

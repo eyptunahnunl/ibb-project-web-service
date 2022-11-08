@@ -1,6 +1,5 @@
 ﻿using Autofac.Core;
-using Core.CrossCuttingConcerns.Caching;
-using Core.CrossCuttingConcerns.Caching.Microsoft;
+
 using Core.Utilities.IoC;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Caching.Memory;
@@ -18,7 +17,7 @@ namespace Core.DependencyResolvers
         {
             servisCollection.AddMemoryCache();
             servisCollection.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
-            servisCollection.AddSingleton<ICacheManager, MemoryCacheManager>();
+            //servisCollection.AddSingleton<ICacheManager, MemoryCacheManager>();
             servisCollection.AddSingleton<Stopwatch>();
         }
     }
