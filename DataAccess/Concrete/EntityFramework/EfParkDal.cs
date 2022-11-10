@@ -27,7 +27,9 @@ namespace DataAccess.Concrete.EntityFramework
                                  CountyName=p.CountyName,
                                  TypeName=t.TypeName,
                                  ManagementName=m.ManagementName,
-                                 Coordinates=p.Coordinates
+                                 Lat=p.Lat,
+                                 Lon=p.Lon
+
                              };
                 return result.ToList();
             }

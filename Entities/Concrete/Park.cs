@@ -12,7 +12,8 @@ namespace Entities.Concrete
         public int ManagementId { get; set; }
         public string ParkName { get; set; }
         public string CountyName { get; set; }
-        public string Coordinates { get; set; }
+        public string Lat { get; set; }
+        public string Lon { get; set; }
 
     }
 }
