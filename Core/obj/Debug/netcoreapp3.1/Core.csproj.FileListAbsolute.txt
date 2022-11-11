@@ -37,3 +37,13 @@ D:\AR-GE\ibb-project\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.p
 D:\AR-GE\ibb-project\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.deps.json
 D:\AR-GE\ibb-project\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.dll
 D:\AR-GE\ibb-project\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.deps.json
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.dll
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\bin\Debug\netcoreapp3.1\Core.pdb
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.csproj.AssemblyReference.cache
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfoInputs.cache
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.AssemblyInfo.cs
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.csproj.CoreCompileInputs.cache
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.dll
+D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Core\obj\Debug\netcoreapp3.1\Core.pdb

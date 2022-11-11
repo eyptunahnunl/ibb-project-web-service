@@ -14,9 +14,9 @@ namespace WebAPI.Controllers
     public class ParksController : ControllerBase
     {
         IParkService _parkService;
-        public ParksController(IParkService productService)
+        public ParksController(IParkService parkService)
         {
-            _parkService = productService;
+            _parkService = parkService;
         }
 
         [HttpGet("getall")]
@@ -32,6 +32,8 @@ namespace WebAPI.Controllers
             return BadRequest(result); //400 Bad Request result.Message
 
         }
+
+
         [HttpPost("add")]
         public IActionResult Post(Park park)
         {

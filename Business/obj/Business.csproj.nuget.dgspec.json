@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj": {}
+    "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Business\\Business.csproj": {}
   },
   "projects": {
-    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj": {
+    "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Business\\Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj",
+        "projectUniqueName": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Business\\Business.csproj",
         "projectName": "Business",
-        "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Business\\Business.csproj",
-        "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Business\\obj\\",
+        "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Business\\Business.csproj",
+        "packagesPath": "C:\\Users\\eyupunal\\.nuget\\packages\\",
+        "outputPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Business\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyupunal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
-                "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
+              "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\DataAccess.csproj"
               },
-              "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
+              "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj"
               }
             }
           }
@@ -74,7 +74,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -83,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
+    "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\obj\\",
+        "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\eyupunal\\.nuget\\packages\\",
+        "outputPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyupunal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -154,7 +155,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -163,21 +165,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
+    "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\DataAccess\\obj\\",
+        "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\eyupunal\\.nuget\\packages\\",
+        "outputPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyupunal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -191,11 +193,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
-                "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj"
+              "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj": {
+                "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj"
               },
-              "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
-                "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj"
+              "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj"
               }
             }
           }
@@ -221,7 +223,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -230,21 +233,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj": {
+    "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\eyptu\\.nuget\\packages\\",
-        "outputPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Entities\\obj\\",
+        "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\eyupunal\\.nuget\\packages\\",
+        "outputPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\eyptu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\eyupunal\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,8 +261,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj": {
-                "projectPath": "D:\\AR-GE\\ibb-project\\ibb-project-web-service\\Core\\Core.csproj"
+              "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj": {
+                "projectPath": "D:\\MyDocumentation\\AR-GE\\ibb-web-project\\backend\\ibb-project-web-service\\Core\\Core.csproj"
               }
             }
           }
@@ -279,7 +282,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -288,7 +292,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.412\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
