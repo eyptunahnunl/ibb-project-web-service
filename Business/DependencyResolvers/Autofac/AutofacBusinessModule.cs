@@ -22,13 +22,16 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<IsParkManager>().As<IIsParkService>().SingleInstance();
             builder.RegisterType<EfIsParkDal>().As<IIsParkDal>().SingleInstance();
 
-
+            builder.RegisterType<UserManager>().As<IUserService>().SingleInstance();
+            builder.RegisterType<EfUserDal>().As<IUserDal>().SingleInstance();
 
             builder.RegisterType<UserManager>().As<IUserService>();
             builder.RegisterType<EfUserDal>().As<IUserDal>();
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+
+
 
 
 

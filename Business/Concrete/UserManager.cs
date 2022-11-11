@@ -1,8 +1,13 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Castle.Core.Resource;
 using Core.Entities.Concrete;
+using Core.Utilities.Business;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -16,19 +21,62 @@ namespace Business.Concrete
             _userDal = userDal;
         }
 
-        public List<OperationClaim> GetClaims(User user)
+        public IResult AddClaim(UserOperationClaim operationClaim)
         {
-            return _userDal.GetClaims(user);
+            var businessResult = BusinessRules.Run(
+                    CheckIfAlreadyHaveClaim(operationClaim)
+                );
+            if (businessResult != null)
+            {
+                return businessResult;
+            }
+            _userDal.AddClaim(operationClaim);
+            return new SuccessResult();
+        }
+        public IDataResult<List<OperationClaim>> GetOperationClaims()
+        {
+            return new SuccessDataResult<List<OperationClaim>>(_userDal.GetOperationClaims());
+
+        }
+        public IDataResult<List<OperationClaim>> GetUserClaims(int userId)
+        {
+            return new SuccessDataResult<List<OperationClaim>>(_userDal.GetUserClaims(userId));
         }
 
-        public void Add(User user)
+        public IResult Add(User user)
         {
             _userDal.Add(user);
+            
+            return new SuccessResult();
+        }
+        public IDataResult<User> GetByMail(string email)
+        {
+            var result = _userDal.Get(u => u.Email == email);
+            if (result != null)
+            {
+                return new SuccessDataResult<User>(result);
+            }
+            return new ErrorDataResult<User>(Messages.UserDoesntExists);
         }
 
-        public User GetByMail(string email)
+        //public IDataResult<List<OperationClaim>> GetClaims(User user)
+        //{
+
+        //    return new SuccessDataResult<List<OperationClaim>>(_userDal.GetClaims(user), Messages.UserClaim);
+        //}
+
+
+        ///Methodss
+        ///
+        private IResult CheckIfAlreadyHaveClaim(UserOperationClaim operationClaim)
         {
-            return _userDal.Get(u => u.Email == email);
+            var claims = GetUserClaims(operationClaim.UserId);
+            if (claims.Data.Any(c => operationClaim.OperationClaimId == c.Id))
+            {
+                return new ErrorResult();
+            }
+            return new SuccessResult();
         }
+
     }
 }

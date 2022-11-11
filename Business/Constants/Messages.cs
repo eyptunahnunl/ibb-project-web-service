@@ -22,5 +22,9 @@ namespace Business.Constants
         public static string UserAlreadyExists = "Kullanıcı mevcut";
         public static string AccessTokenCreated = "Kullanıcı tokenı oluşturuldu.";
         public static string IsParkListed = "Otoparklar Listelendi";
+        public static string UserClaim = "Yetki kontrolleri listelendi";
+        public static string WrongPasswordOrEmail = "Yanlış parola veya email";
+
+        public static string UserDoesntExists { get; } = "User doesn't exist";
     }
 }
