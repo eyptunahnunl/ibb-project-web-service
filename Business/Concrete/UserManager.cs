@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.BusinessAspects.Autofac;
 using Business.Constants;
 using Castle.Core.Resource;
 using Core.Entities.Concrete;
@@ -33,6 +34,8 @@ namespace Business.Concrete
             _userDal.AddClaim(operationClaim);
             return new SuccessResult();
         }
+
+        [SecuredOperation("user")]
         public IDataResult<List<OperationClaim>> GetOperationClaims()
         {
             return new SuccessDataResult<List<OperationClaim>>(_userDal.GetOperationClaims());

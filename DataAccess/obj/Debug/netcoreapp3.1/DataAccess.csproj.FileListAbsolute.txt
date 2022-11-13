@@ -73,3 +73,18 @@ D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\DataAcc
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.deps.json
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\Core.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\Entities.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\Core.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.AssemblyReference.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfoInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.AssemblyInfo.cs
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CoreCompileInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.csproj.CopyComplete
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\DataAccess\obj\Debug\netcoreapp3.1\DataAccess.pdb

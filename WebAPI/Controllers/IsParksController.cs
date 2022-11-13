@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Entities.Concrete;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,15 +19,51 @@ namespace WebAPI.Controllers
         [HttpGet("getispark")]
         public IActionResult Get()
         {
-            //Swagger -- API Dokumantasyonu sağlar.
+      
 
             var result = _isParkService.GetAllIsPark();
             if (result.Success)
             {
-                return Ok(result); //200 Http Ok result.Data
+                return Ok(result); 
             }
-            return BadRequest(result); //400 Bad Request result.Message
+            return BadRequest(result); 
 
         }
+
+
+        [HttpPost("update")]
+        public IActionResult Update(IsPark isPark)
+        {
+            var result = _isParkService.Update(isPark);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpPost("updatebyid")]
+        public IActionResult UpdateById(int parkid)
+        {
+            var result = _isParkService.GetIsParkById(parkid);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+
+        [HttpGet("getid")]
+        public IActionResult GetById(int parkid)
+        {
+            var result = _isParkService.GetIsParkById(parkid);
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+            return BadRequest(result);
+        }
+        
+
     }
 }

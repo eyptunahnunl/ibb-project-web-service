@@ -10,8 +10,10 @@ namespace Business.Abstract
     public interface IIsParkService
     {
         IDataResult<List<IsPark>> GetAllIsPark();
-        
+        IDataResult<IsPark> GetIsParkById(int parkid);
         IResult Add(IsPark isPark);
         IResult Update(IsPark isPark);
+      //  IResult UpdateById(int parkid);
+
     }
 }

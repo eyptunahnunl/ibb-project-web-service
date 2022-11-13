@@ -13,6 +13,7 @@ namespace Business.Abstract
         IDataResult<List<ParkJoinDto>> GetParkDetails();
         IResult Add(Park park);
         IResult Update(Park park);
+        
 
     }
 }

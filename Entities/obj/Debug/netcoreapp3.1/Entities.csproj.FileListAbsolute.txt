@@ -63,3 +63,16 @@ D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Entitie
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.dll
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\bin\Debug\netcoreapp3.1\Core.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\bin\Debug\netcoreapp3.1\Core.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CopyComplete
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Entities\obj\Debug\netcoreapp3.1\Entities.pdb

@@ -83,3 +83,20 @@ D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Busines
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Entities.pdb
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Core.pdb
 D:\MyDocumentation\AR-GE\ibb-web-project\backend\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Business.deps.json
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Business.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Business.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Core.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\DataAccess.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Entities.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\DataAccess.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Entities.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\bin\Debug\netcoreapp3.1\Core.pdb
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.csproj.AssemblyReference.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfoInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.AssemblyInfo.cs
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.csproj.CoreCompileInputs.cache
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.csproj.CopyComplete
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.dll
+D:\AR-GE\ibb project son\ibb-project-web-service\Business\obj\Debug\netcoreapp3.1\Business.pdb

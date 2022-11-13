@@ -13,6 +13,7 @@ namespace Business.Concrete
     {
         private IUserService _userService;
         private ITokenHelper _tokenHelper;
+        private IAuthService _authService;
 
         public AuthManager(IUserService userService, ITokenHelper tokenHelper)
         {
@@ -40,7 +41,15 @@ namespace Business.Concrete
                 PasswordSalt = passwordSalt,
                 Status = true
             };
+            
             _userService.Add(user);
+            _userService.AddClaim(
+                new UserOperationClaim
+                {
+                   UserId = user.Id,
+                    OperationClaimId = 2
+                }
+                );
             return new SuccessDataResult<User>(user, Messages.UserRegistered);
         }
 

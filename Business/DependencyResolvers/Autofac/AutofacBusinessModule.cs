@@ -13,7 +13,7 @@ namespace Business.DependencyResolvers.Autofac
 {
     public class AutofacBusinessModule : Module
     {
-        //Instancelar artık startup da değil burda oldu.
+        
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<ParkManager>().As<IParkService>().SingleInstance();
@@ -30,12 +30,6 @@ namespace Business.DependencyResolvers.Autofac
 
             builder.RegisterType<AuthManager>().As<IAuthService>();
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
-
-
-
-
-
-
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 

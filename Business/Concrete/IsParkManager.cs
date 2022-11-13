@@ -7,6 +7,8 @@ using Entities.Concrete;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Linq;
+using Business.BusinessAspects.Autofac;
 
 namespace Business.Concrete
 {
@@ -27,16 +29,34 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ParkAdded);
         }
 
+       
         public IDataResult<List<IsPark>> GetAllIsPark()
         {
             return new SuccessDataResult<List<IsPark>>(_isParkDal.GetAll(), Messages.IsParkListed);
         }
 
+        public IDataResult<IsPark> GetIsParkById(int parkid)
+        {
+            var result = _isParkDal.Get(p => p.Id == parkid);
+            if (result != null)
+            {
+                return new SuccessDataResult<IsPark>(result);
+
+            }
+            return new ErrorDataResult<IsPark>(result);
+        }
+
+
+        [SecuredOperation("admin")]
         public IResult Update(IsPark isPark)
         {
-            throw new NotImplementedException();
+            _isParkDal.Update(isPark);
+            return new SuccessResult(Messages.ParkUpdate);
         }
-        
+
+  
+
+
 
     }
 }

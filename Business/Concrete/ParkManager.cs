@@ -30,6 +30,7 @@ namespace Business.Concrete
         [SecuredOperation("admin,park.add")]
         public IResult Add(Park park)
         {
+
             _parkDal.Add(park);
             return new SuccessResult(Messages.ParkAdded);
         }
